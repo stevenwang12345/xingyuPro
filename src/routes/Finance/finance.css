@@ -1,0 +1,86 @@
+// .finance{background: white!important}
+.finance_datalist{border:1px solid #ddd;background: white; overflow: hidden;}
+.finance_datalist .transaction{border-bottom:1px solid #eee;}
+.finance_datalist h2{height: 48px;line-height: 48px;font-size: 16px;color: #a06e27;padding-left: 10px;float:left;font-weight: bold}
+.finance_datalist .searchTime{float:right;line-height:40px;margin-right: 10px;}
+.finance_datalist .search,.finance_datalist .time {float:left;margin-left: 10px;}
+.finance_datalist .search input{border-radius:3px;float:left;width:200px;margin-top:5px;}
+.finance_datalist .conditional {padding: 10px}
+.finance_datalist .condition-date{border-bottom:dashed 1px #e4e4e4;}
+.finance_datalist .conditionitem{height: 40px;line-height:40px;position:relative;z-index: 9;width:98%;margin:0 auto;}
+.finance_datalist .conditionitem ul{border:none;height: auto;line-height:40px;background:none;}
+.finance_datalist .conditionitem .condition-sel li{border:none;height: 40px;line-height:40px;margin-right:10px;padding:0px 11px;cursor:pointer;float:left;font-size: 14px}
+.finance_datalist .conditionitem .condition-sel li:hover{border:none;background:none;color:#a06e27;}
+.finance_datalist .conditionlabel{width:65px;height:40px;line-height:40px;margin-right:20px;font-weight: 900;color:#333;font-size:14px;}
+
+.finance_datalist .compared-list {position: fixed;width: 200px;height: auto;right: 0;top: 50%;border: 1px solid #ccc;background: white;}
+.finance_datalist .compared-list .title {clear: both;height: 40px;line-height: 40px;padding: 0 10px;color: white;background: #e2a140}
+.finance_datalist .compared-list .title span {float: left;font-weight: bold;}
+.finance_datalist .compared-list .ant-btn-primary {background: #9c6c24;border: 0}
+.finance_datalist .compared-list .title i{font-size: 15px;cursor: pointer;background: white;color: #e2a140}
+
+.finance_status{
+	margin-left: 30px;
+	color: #fff;
+    font-size: 12px;
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 2px;
+    padding: 0 10px;
+    text-align: center;
+    margin-top: 15px;
+    display: inline-block;
+    background: green
+}
+.fl{float:left;}
+.fr{float: right;}
+.condition-sel li{border-radius: 0px!important}
+.modal-p {padding:12px 10px;border-bottom: 1px dashed #ccc;color: #e2a140;font-weight: bold;font-size: 14px;}
+.modal-p i{cursor: pointer;}
+.compared-btn {display: block;margin: 10px auto}
+.comparedModals {text-align: center;white-space: nowrap;}
+.comparedModal-ul {clear: both;height:40px;line-height: 40px;}
+.comparedModal-ul li{float: left;margin: 0 12px;display: inline;}
+.comparedModals:before {content: '';display: inline-block;height: 100%;vertical-align: middle;width: 0;}
+.comparedModals .ant-modal {display: inline-block;vertical-align: middle;top: 0;text-align: left;}
+.comparedModals .ant-modal-footer{display: none}
+.data-table {width: 100%;border-collapse:collapse;background: white;}
+
+.data-table thead {height: 40px;}
+.data-table thead th{height: 40px;border: 1px solid #ccc;}
+.data-table td {border-right: 1px solid #eee;border-left: 1px solid #eee;border-bottom: 1px solid #eee;padding: 6px;}
+.no-data {display: block;padding: 50px 0;width: 100%;text-align: center; overflow: hidden;}
+
+.reset-condition{position:absolute;z-index:9;right: 0;top: 0;color:#a06e27;cursor:pointer;font-size: 12px}
+.condition-tab ul{border:1px solid #ddd;height: 40px;line-height:40px;margin-top:15px;background: white}
+.mation_body_title{width: 100%!important;margin: 10px 0px!important}
+.condition-tab .mation_body_title li{float:left;padding:0;border:none;text-align:center;width:180px;color: #a06e27; cursor: pointer;font-size: 14px;}
+.details{margin-top:15px;width: 100%; clear: both; }
+.details .condition-sel li{background: white;border:1px solid #ddd;width:100%;padding:10px 10px;height: auto;margin-top: 10px; overflow: hidden;}
+.details .condition-sel li:hover {background: #faf2e5}
+.sorting-img {width: 145px;height: 85px;float: left;}
+.sorting-img img {width:145px;min-height:85px;}
+.title{line-height: 27px;padding-left:25px;overflow: hidden;}
+.title a{color:#a06e27;font-size:14px;font-weight:800;}
+.title a:hover{color:#a06e27;}
+.con {position: relative;padding: 10px;border-bottom: #f6f6f6 solid 1px;line-height: 24px;overflow:hidden;padding-left:25px;}
+.con span {display: inline-block;padding-right: 10px;width: 25%;vertical-align: top;color: #666;font-size: 12px;}
+
+.finance-loadMore {
+	display: block;
+	width: 140px;
+	height: 40px;
+	background: #fff!important;
+	margin: 15px auto;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #666;
+	cursor: pointer;
+}
+.finance-loadMore:hover {
+	background: #ddd
+}

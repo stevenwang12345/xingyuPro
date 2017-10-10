@@ -1,0 +1,101 @@
+.w1170 {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.third {
+    width: 450px;
+    margin: 10px auto;
+}
+
+.pass-form {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 20px 20px 50px 20px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.label {
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    padding: 6px 0;
+    text-align: right;
+}
+
+.fl {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.mc-title {
+    overflow: hidden;
+}
+
+.mc-title {
+    line-height: 20px;
+}
+
+.mc-title ul {
+    overflow: hidden
+}
+.ant-input{
+    border: 1px solid #999;
+    border-radius: 0px;
+    font-size: 14px;
+    height: 32px;
+    line-height: 30px;
+    padding: 0 25px 0 10px !important;
+    color: #333
+}
+.mc-title .curr {
+    background: #6b3906;
+    color: #fff;
+}
+
+.mc-title ul li {
+    float: left;
+    width: 25%;
+    height: 35px;
+    line-height: 35px;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.mc-title li b {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.button-second button {
+    margin-left: 65px;
+}
+
+.freeGetcode {
+display: inline-block;cursor:pointer;width: 120px; height: 35px; background: #fff9f2; margin: 0 auto; border: 1px solid #ddd; color: #6b3906;font-size: 12px
+
+}
+
+.four {
+    width: 450px;
+    margin: 10px auto;
+}
+
+.item button {
+    margin-left: 50px;
+
+}
+
+.item .ant-btn {
+    background: #aa886d;
+    color: white;
+    font-size: 14px;
+    border: 0;
+    float: left!important
+}

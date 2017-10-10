@@ -1,0 +1,145 @@
+#edui125{
+	width:100%;
+}
+
+.pdlr20{
+	padding:20px;
+	margin-bottom: 10px;
+}
+.posFixed{
+	position: relative;
+	z-index: 99;
+	padding-bottom: 20px;
+	background-color:#fff;
+	overflow: hidden;
+}
+.posFixed input[type='text'] {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.posFixed textarea{
+	margin-top: 10px; 
+}
+.errortips {
+	color: red;
+	display: block;
+
+}
+.btn-box {
+	width: 50px;
+	height: 40px;
+	position: absolute;
+	bottom:0;
+}
+.mb20{
+	margin-bottom:20px;
+}
+
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+.iChar{
+	width:830px;
+	height: 33px;
+	line-height:33px;
+	background-color:#fafafa;
+	border:1px solid #f2f2f2;
+	padding-left: 10px;
+	outline: none;
+	font-size:14px;
+}
+.h-select{
+	width:140px;
+}
+
+#edui_fixedlayer{
+	margin-left: 100px;
+	width:300px;
+}
+#edui192_content{
+	width:300px;
+}
+.ql-container.ql-snow{
+	height: 500px;
+}
+
+#selects{
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	height: 30px;
+	z-index: 5000;
+	border: 1px solid #ddd;
+	text-indent: 10px;
+}
+.pnpost{
+	float: right;
+	margin-top: 20px;
+	position: absolute;
+	background: white;
+	padding-bottom: 20px;
+	bottom: -10px;
+	right: 0px;
+	width: 100%
+}
+#postsubmit{
+	background-color:transparent;
+	color: #6b3906;
+	font-size:14px;
+}
+.pnpost .h-btn1{
+	width:135px;
+	height: 27px;
+	font-size:14px;
+	border-radius: 5px;
+	border:none;
+	background-color:#6b3906;
+	cursor: pointer;
+}
+.pnc, a.pnc{
+	color:#FFF !important;
+}
+
+.relatedFieldList{
+	overflow: hidden;
+}
+.pbt{
+	margin-bottom:10px;
+}
+.relatedFieldList .pbt .z{
+	position:relative;
+}
+.relatedFieldList .z span.rq{
+	padding-left:10px;
+	width:92px;
+	height: 35px;
+	font-size:12px;
+	display: inline-block;
+	vertical-align: middle;
+	position:relative;
+}
+.option_field{
+    width:830px;
+	height: 33px;
+	line-height:33px;
+	background-color:#fafafa;
+	border:1px solid #ddd;
+	padding-left: 10px;
+	border-radius: 0px;
+	outline: none;
+	font-size:14px;
+}
+textarea{
+	width:830px;
+	height: 120px;
+	background-color:#fafafa;
+	border:1px solid #ddd;
+	padding-left: 10px;
+	outline: none;
+	font-size:14px;
+	margin-bottom:15px;
+	resize:none;
+}

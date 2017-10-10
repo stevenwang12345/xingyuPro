@@ -1,0 +1,400 @@
+.layui-table thead th {text-align: center;height: 36px}
+.evaluation-tab {
+    border: 1px solid #ddd;
+    background: white;
+    overflow: hidden;
+}
+.evaluation-tab .ant-tabs-nav .ant-tabs-tab-active {
+    color: #9d6d25;  
+    font-size: 16px!important;
+    background: white;
+}
+.evaluation-tab .ant-tabs-ink-bar {
+    top: 0px;
+    background: #9d6d25!important;
+    z-index:1000
+}
+.evaluation-tab .ant-tabs-nav .ant-tabs-tab {
+    border-right: 1px solid #ddd;
+    margin-right: 0px;
+    font-size: 14px;
+    position: relative;
+    z-index: 1
+}
+.theadFixed {
+    width:1170px; 
+    position: fixed;
+    top: 0px;
+    z-index: 10
+}
+.evaluation-tab .ant-tabs-nav .ant-tabs-tab:hover {
+    color: #9d6d25;
+}
+.ant-tabs-tab-prev-icon, .ant-tabs-tab-next-icon {
+    color: red;
+}
+.ant-tabs-tab-prev-icon, .ant-tabs-tab-next-icon {
+    top: 52%;
+}
+.evaluation-tab .ant-tabs-bar {
+    border-bottom: 0px;
+    position: relative;
+    background: white;
+}
+.evaluation-tab .ant-tabs-bar::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #ddd;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0
+}
+.layermark {
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px
+}
+.comparedDialog {
+    width: 800px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin:auto;
+    left:0; 
+    right:0; 
+    top:0; 
+    bottom: 0px;
+    background: white;
+    position: fixed;
+    z-index: 50;
+    border: 1px solid #666;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4)
+
+}
+.comparedDialog .comparedtitle {
+    clear: both;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 15px;
+    position: relative;
+    overflow: -hidden!important
+}
+.comparedDialog .comparedtitle .biaoti {
+    float: left;
+    font-size: 16px;
+}
+.comparedDialog .comparedtitle .close {
+width: 20px;
+    height: 20px;
+    line-height: 15px;
+    text-align: center;
+    background: #000;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    z-index: 5000;
+    float: none!important
+}
+.bangdan .ant-tabs-nav .ant-tabs-tab{
+    border-right: 0px!important
+}
+.bangdan :root .ant-tabs-tab-prev-icon:before, .bangdan :root .ant-tabs-tab-next-icon:before {
+    font-size: 22px
+}
+.no-data {
+    color: red;
+    font-size: 16px;
+}
+.comparedModals .ant-modal-footer{display: none}
+.bangdan .ant-tabs-bar::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-bottom: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0
+}
+.bangdan .ant-tabs-tab-next-icon {font-size: 16px}
+.bangdan .ant-tabs-ink-bar {
+    top: 1px;
+    background: none!important;
+    z-index:0!important
+}
+.comparedModals .ant-btn-primary {
+    background: #e2a140;
+    border: 0px
+}
+.solemnly{
+	border:1px solid #ddd;
+    background: white;
+    overflow:hidden;
+}
+.solemnly h2{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #9c6c24;
+    font-weight: bold;
+    padding-left: 10px;
+    border-bottom: 1px solid #ddd;
+    background: white;
+}
+.solemnly ul{
+    width:100%;
+    padding: 10px 0;
+}
+.solemnly .txt li{
+    color: #666;
+    padding-left:10px;
+	height: 30px;
+	line-height:30px;
+    font-size: 14px;
+}
+
+/* 榜单 报告 */
+.listreports{
+	margin-top: 20px;
+}
+
+/* 日期切换 */
+#main {
+    width: 600px;
+    height: 50px;
+    float: left;
+    overflow: hidden;
+}
+
+#gd {
+    height: 50px;
+    display: block;
+    position: relative;
+    width: 9999em;
+}
+
+#gd li {
+    width: 120px;
+    display: block;
+    float: left;
+    cursor:pointer;
+    height:35px;
+    line-height:35px;
+    border-radius:5px;
+    text-align:center;
+}
+
+#box {
+    width: 702px;
+    height: 50px;
+}
+
+#toleft {
+    width: 30px;
+    height: 30px;
+    margin: 1px 5px;
+    line-height:33px;
+    float: left;
+    cursor: pointer;
+    text-align:center;
+}
+#toleft:hover{
+    background-color:#9d6c24;
+}
+#toright:hover{
+    background-color:#9d6c24;
+}
+#toright {
+    width: 30px;
+    height: 30px;
+    margin: 1px 5px;
+    line-height:33px;
+    text-align:center;
+    float: left;
+    cursor: pointer;
+}
+#toleft img,#toright img{
+    text-align:center;
+    width:20px;
+    height:20px;
+    padding-top:5px;
+}
+.list_curr .curr01 {
+    background-color: #9d6c24;
+    border-radius: 5px;
+    display: inline-block;
+    width: 120px;
+    height:35px;
+    line-height:35px;
+    color: #fff;
+    border: 1px solid #9d6c24;
+}
+
+/* table */
+.data-table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    width: 98%;
+    margin-left: 1%;
+}
+.data-table thead{
+    height: 40px;
+}
+.data-table th{
+    border: 1px solid #eee;
+    border-right: 0px!important;
+    border-left: 0px!important;
+    background: #9d6d25;
+    color: #ffeed4
+}
+.data-table th:last-child {
+    border-right: 0px;
+}
+.table tr{
+    text-align:center;
+}
+.data-table td {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 15px 6px !important;
+    font-size: 14px;
+}
+.data-table thead th{
+    height: 50px;
+    text-align: center;
+}
+/* 报告 */
+.platformreportTime {
+    height: auto!important;
+	padding:0 0 20px 20px;
+    overflow: hidden;
+}
+.platformreportTime li{
+    list-style:none;
+    height: 50px;
+    line-height:50px;
+    width:150px;
+    cursor: pointer;
+    background:#fff;
+    margin-top:10px;
+    color:#333;
+    font-size: 14px;
+    border: 1px dashed #ccc;
+    margin-right: 20px;
+    margin-left: 18px;
+    text-align:center;
+    float: left;
+}
+.platformreportTime li:hover{
+    background: #f6e8d4;
+    color: #9c6c24;
+    border: 1px solid #ffba53
+}
+.platformreport{
+	border:none;
+}
+.platformreport li{
+	border:none;
+	height: 35px;
+	line-height:35px;
+	display: block;
+	width:300px;
+	height: 40px;
+	line-height:40px;
+	background-color:#a06e27;
+	color:#fff;
+    margin-top:10px;
+    text-align:center;
+    cursor: pointer;
+}
+
+.platformreportTime .platformreport li:hover{
+	background:none;
+	border:1px solid #ddd;
+	color:#333;
+}
+
+/* 平台对比 */
+.compared-list {
+    position: fixed;
+    width: 200px;
+    height: auto;
+    right: 0;
+    top: 50%;
+    border: 1px solid #ccc;
+    background: white;
+    z-index: 1000
+}
+.compared-list .title {
+    clear: both;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    // border-bottom: 1px solid #ccc;
+    color: white;
+    background: #e2a140
+}
+.compared-list .title span {
+    float: left;
+    font-weight: bold;
+}
+.compared-list .ant-btn-primary {
+    background: #9c6c24;
+    border: 0
+}
+.compared-list .title i{
+    font-size: 15px;
+    cursor: pointer;
+    background: white;
+    color: #e2a140
+}
+.modal-p {
+    padding:12px 10px;
+    border-bottom: 1px dashed #ccc;
+    color: #e2a140;
+    font-weight: bold;
+    font-size: 14px;
+}
+.modal-p i{
+    cursor: pointer;
+    color: #ccc
+}
+.compared-btn {
+    display: block;
+    margin: 10px auto
+}
+.fr{
+    float: right;
+}
+.comparedModal-tr{
+    border:1px solid #ddd;
+}
+.comparedModal-tr td{
+    width:80px;
+    height: 35px;
+    line-height:35px;
+    border-bottom: 1px solid #ddd;
+    text-align:center;
+}
+.evalu-table {
+    margin-left: 0px!important
+}
+.ant-modal-content {border-radius: 0px}
+.evalu-table td {border-right: 1px solid #eee!important;border-left: 1px solid #eee!important;border-bottom: 1px solid #eee!important;}
+.modal-table thead th {font-weight: bold;font-size: 14px; text-align: center;}
+.modal-table  td{border-right: 1px solid #eee!important;border-left: 1px solid #eee!important;border-bottom: 1px solid #eee!important;padding: 5px!important;}
+
+

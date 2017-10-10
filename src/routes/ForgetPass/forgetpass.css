@@ -1,0 +1,230 @@
+.w1170{
+	width: 1170px;
+	margin:0 auto;
+}
+.w1170 .ant-form-item-control {
+	text-align: left;
+}
+ul,li,ol{
+	list-style:none;
+}
+.fl{
+	float: left;
+}
+.mod-comm{
+	padding: 10px 20px 20px;
+}
+.mod-comm .form {overflow: hidden;}
+.mod-main{
+	background-color: #FFF;
+	margin-bottom: 20px;
+}
+div.mod-main .mc{
+	overflow: hidden;
+}
+.mod-comm .mc{
+	line-height: 20px;
+}
+.mod-comm .mc ul{
+	overflow:hidden
+}
+.mod-comm .mc .mc-title .curr{
+	background:#6b3906;
+	color: #fff;
+}
+.mod-comm .mc .mc-title ul li{
+	float: left;
+	width:25%;
+	height: 35px;
+	line-height:35px;
+	background-color:#ddd;
+	text-align: center;
+}
+.mod-comm .mc .mc-title li b{
+	font-size: 15px;
+}
+.form{
+	margin-top: 20px;
+	border:1px solid #ddd;
+	padding:20px;
+	margin:20px auto;
+}
+.ant-input{
+	 border: 1px solid #999 !important;
+    border-radius: 0px !important;
+    font-size: 14px;
+    height: 32px;
+    line-height: 30px;
+    padding: 0 22px !important;
+    color: #333;
+
+}
+.first-form{
+	width:500px;
+	margin:0 auto;
+}
+.item{
+   overflow:hidden;
+}
+.yzm,.forget-sms-input {
+	padding-left: 10px!important
+}
+.label{
+	float: left;
+	height: 18px;
+	line-height:18px;
+	padding:6px 0;
+	text-align:right;
+}
+.fl{
+	margin-left:10px;
+	cursor: pointer;
+}
+.username{
+	width:200px;
+}
+.button{
+	margin-left:125px;
+}
+
+.second{
+	width:430px;
+	margin:0 auto;
+}
+.second li{
+	overflow:hidden;
+	margin-top:10px;
+}
+.second li .phone{
+	float: left;
+	width:50px;
+	height: 70px;
+	border:1px solid #ddd;
+}
+.second li .text{
+	float: left;
+	margin-left:20px;
+}
+.second li .text h2{
+	font-size:15px;
+    height: 35px;
+    line-height:35px;
+}
+
+.get{
+	float: left;
+	height: 35px;
+	line-height:35px;
+	width:110px;
+	margin:10px 25px;
+}
+.changeCode {
+	color: #6b3906;
+	cursor: pointer;
+}
+
+.item h1{
+	font-size:12px!important;
+	color:green!important;
+	padding: 30px 0;
+	height: auto!important;
+	text-align: center;
+}
+.item .verificationTips{
+	font-size:14px!important;
+
+}
+.item label {
+	font-size: 14px;
+	color: #666
+}
+
+#step .ant-btn{
+    background: #aa886d;
+	color: white;
+	font-size: 14px;
+	border: 0;
+	float: left!important;
+	margin-left: 124px;
+}
+
+.jumpMark {
+	position: fixed;
+	background: rgba(0, 0, 0, .6);
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 5000!important
+}
+.jumpPopup {
+	position: fixed;
+	width: 350px;
+	height: 160px;
+	border-radius: 0;
+	margin: auto;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background: #fff;
+	border: 0!important;
+	z-index: 1000;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, .4)
+}
+.jumpPopup .title {height: 40px; background: #9c6c24}
+.jumpPopup p {
+	margin: 15px 0 15px 0;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+.jumpPopup p i {
+	font-size: 25px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	color: #ffa040
+}
+.jumpPopup p .txt{
+	display: inline-block;
+	color: #6b3906;
+	vertical-align: top;
+	padding-top: 4px
+}
+.jumpPopup .close {
+	width: 20px;
+	height: 20px;
+	line-height: 15px;
+	text-align: center;
+	background: #fff;
+	border-radius: 0;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	color: #9c6c24;
+	font-size: 20px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.jumpPopup .close:hover {
+	background: #ffa040
+}
+.jumpPopup .confirmBtn {
+	display: block;
+	border-radius: 20px;
+	background: #ffa040;
+	color: white;
+	width: 100px;
+	height: 30px;
+	margin: 10px auto;
+	line-height: 30px;
+	border: 0px;
+	text-align: center;
+	cursor: pointer;
+}
+.jumpPopup .confirmBtn:hover {
+	background: #fe9225
+}

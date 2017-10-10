@@ -1,0 +1,54 @@
+.w1170{
+	width: 1170px;
+	margin:0 auto;
+}
+.five{
+	text-align:center;
+	border:1px solid #ddd;
+}
+.five h3{
+	height: 30px;
+	line-height:30px;
+}
+.five .item{
+	margin-top:15px;
+}
+.five .login{
+	margin-bottom: 15px;
+	margin-top:10px;
+}
+.mc-title .curr{
+	background:#6b3906;
+	color: #fff;
+}
+.mc-title{
+	overflow: hidden;
+}
+.mc-title{
+	line-height: 20px;
+}
+.mc-title ul{
+	overflow:hidden
+}
+.mc-title .curr{
+	background:#6b3906;
+	color: #fff;
+}
+.mc-title ul li{
+	float: left;
+	width:25%;
+	height: 35px;
+	line-height:35px;
+	background-color:#ddd;
+	text-align: center;
+}
+.mc-title li b{
+	font-size: 15px;
+}
+.five .ant-btn {
+	background: #aa886d;
+	color: white;
+	font-size: 14px;
+	border: 0;
+	float: none!important;
+}

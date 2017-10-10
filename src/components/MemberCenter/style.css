@@ -1,0 +1,132 @@
+.inner-box{max-height: 340px; }
+
+
+.freeCode {
+	height: 28px;
+    line-height: 28px;
+    padding: 0 18px;
+    background-color: #fff;
+    color: #666;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: .9;
+    margin-left: 10px;
+    filter: alpha(opacity=90);
+}
+.queding-btn {
+	height: 30px;
+    line-height: 30px;
+    padding: 0 18px;
+    background-color: #009688;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: .9;
+    filter: alpha(opacity=90);
+}
+.phoneNumber {font-size: 14px;color: #6b3906; font-weight: bold;}
+.bbs-table{
+	width: 100%;
+	height: auto;
+	background: white
+}
+.bbs-table thead {
+	height: 40px;
+	line-height: 40px
+}
+.bbs-table thead tr th {
+	text-align: left;
+	padding-left: 10px;
+	border-bottom: 1px solid #ddd;
+	font-weight: normal;
+	// background: #ececec;
+}
+.bbs-table td {
+	padding: 8px;
+	border-bottom: 1px solid #eee;
+	color: #333
+}
+
+.info-collected-table, .thumbup-collected-table{
+	width: 100%;
+	background: white
+}
+.info-collected-table thead, .thumbup-collected-table thead {
+	height: 40px;
+	line-height: 40px
+}
+.member-containter .ant-tabs-nav-wrap{margin-bottom: 0px}
+.info-collected-table thead tr th, .thumbup-collected-table thead tr th {
+	text-align: left;
+	padding-left: 10px;
+	border-bottom: 1px solid #ddd;
+	// background: #ececec
+}
+.info-collected-table td, .thumbup-collected-table td {
+	padding: 8px;
+	border-bottom: 1px solid #eee
+}
+
+.thumbup-collected-table .bbsTitle, .info-collected-table .bbsTitle, .bbs-table .bbsTitle {
+	font-size: 12px;
+	color: #834505
+}
+.thumbup-collected-table .bbsTitle:hover,.info-collected-table .bbsTitle:hover,.bbs-table .bbsTitle {color: #9d5206}
+
+.collected-table{
+	width: 100%;
+	background: white
+}
+.collected-table thead {
+	height: 40px;
+	line-height: 40px
+}
+.collected-table thead tr th {
+	text-align: left;
+	padding-left: 10px;
+	border-bottom: 1px solid #ddd;
+	// background: #ececec;
+}
+.collected-table td {
+	padding: 8px;
+	border-bottom: 1px solid #eee
+}
+.bbs-collected-table{
+	width: 100%;
+	background: white
+}
+.bbs-collected-table a {color: #a16d24}
+.bbs-collected-table thead {
+	height: 40px;
+	line-height: 40px
+}
+.bbs-collected-table thead tr th {
+	text-align: left;
+	padding-left: 10px;
+	border-bottom: 1px solid #ddd;
+	// background: #ececec;
+}
+.bbs-collected-table td {
+	padding: 8px;
+	border-bottom: 1px solid #eee
+}
+#pl_page, #bbs_page, #system_page, #tiezi_page, #caogao_page, #bank_page, #info_page{text-align: right;margin-top: 15px}
+#pl_page a:hover, #bbs_page a:hover, #system_page a:hover, #tiezi_page a:hover, #caogao_page a:hover, #bank_page a:hover, #info_page a:hover {color: #6b3906}
+// .paginationDiv .num {display: inline-block; background: white; margin-right: 6px; border: 1px solid #ddd;padding: 4px 12px}
+// .paginationDiv .num.current{background: #9c6c24; color: white;font-weight: bold;}
+// .paginationDiv .rightDiv {display: inline-block;margin-right: 10px;}
+// .paginationDiv .rightDiv input{width:40px;border:1px solid #ddd;padding:3px 4px; text-align: center;}
+// .paginationDiv .prev, .paginationDiv .next{border:1px solid #ddd;padding: 4px 12px; display: inline-block; background: #fff0d9}
+// .paginationDiv .prev{margin-right: 6px}
+// .paginationDiv a {color: #333;font-size: 14px}
+// .paginationDiv a:hover{background: #ffefd7}
+// .paginationDiv .num-total {color:#9c6c24;font-weight: bold;margin: 0 8px}
+#tex1 {text-align: right;}

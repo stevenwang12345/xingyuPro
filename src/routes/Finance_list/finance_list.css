@@ -1,0 +1,307 @@
+.w1170{
+	width:1170px;
+	margin: 0 auto;
+}
+.datalist{
+    border:1px solid #ddd;
+}
+.transaction{
+    border-bottom:1px solid #ddd;
+}
+.datalist h2{
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #a06e27;
+    padding-left: 10px;
+    float:left;
+}
+.datalist .searchTime{
+    float:right;
+    line-height:40px;
+    margin-right: 10px;
+}
+.datalist .search,.datalist .time {
+    float:left;
+    margin-left: 10px;
+}
+.datalist .search input{
+    border-radius:3px;
+    float:left;
+    width:200px;
+    margin-top:5px;
+}
+.conditional-title{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    height: auto;
+    line-height: 25px;
+    border-bottom: 1px dashed #ddd;
+}
+.conditional-title h3{
+	color:#a06e27;
+	font-size: 16px
+}
+
+.bankRight ul{
+	border:none;
+	padding-bottom: 15px;
+	margin-top:10px;
+}
+.bankRight .syl {
+	color: #ff0103;
+	font-weight: bold;
+}
+.bankRight .bankRighTxt li{
+	height: auto;
+	width:95%;
+	margin:0 auto;
+	padding:10px 0 0 5px;
+	overflow: hidden;
+	border-right:none;
+}
+.bankRight .bankRighTxt li b{
+	color:#f20;
+	font-size:14px;
+}
+.bankRight .bankRighTxt li p{
+	height: 30px;
+	line-height:30px;
+}
+.bankRight .bankRighTxt li:hover{
+	background:none;
+}
+.bg-nav .right a{
+	color:#a06e27;
+}
+
+/* FORM */
+.conditional-list{
+	width:95%;
+	margin:10px auto;
+	overflow:hidden; 
+}
+.conditional-list .form-title{
+	float:left;
+	width:110px;
+	font-size:14px;
+	height: 25px;
+	line-height:25px;
+}
+.conditional-list .form-txt{
+	border-bottom:1px solid #bbb;
+	width:237px;
+	float:left;
+	height: 30px;
+	line-height:25px;
+	color:#333;
+	padding-left: 5px;
+	margin-right:9px;
+}
+.conditional-list li{
+	margin-top: 15px;
+	width:50%;
+	float:left;
+}
+.conditional-list li:nth-last-child(1) .form-txt{
+	height: auto;
+	margin-bottom:30px;
+}
+.conditional-list li input{
+    height: 25px;
+    line-height:25px;
+    color:#333;
+    padding-left:10px;
+}
+
+
+/* right */
+/* right */
+.bbs-detail-right{
+	width:100%;
+}
+.circle-rule{
+	background-color:#fff;
+	border:1px solid #e4e4e4;
+	margin-bottom:12px;
+}
+.bg-nav{
+	height:34px;
+	border-bottom:1px solid #e4e4e4;
+}
+.n-nav .bg-nav span{
+	cursor:pointer;
+	border-top:3px solid #c0163a;
+	height:34px;
+	font-weight:bold;
+	color:#c0163a;
+}
+.bg-nav span{
+	display:block;
+	float:left;
+	background-color:#fff;
+	font-size:14px;
+	line-height:34px;
+	padding:0 15px;
+	border-right:1px solid #e4e4e4;
+}
+.bg-nav .right{
+	float:right;
+	margin-top:7px;
+	margin-right: 5px;
+}
+.bg-nav .right b{
+	margin-right:5px;
+}
+.rule-txt{
+	padding:12px 15px;
+	font-size:12px;
+	color:#666;
+	line-height:24px;
+	color:#666;
+	line-height:24px;
+	overflow:hidden;
+	clear: both;
+}
+.rule-txt ul{
+	border-right:none;
+}
+.rule-txt .rule-list li{
+	border:none;
+	height: 30px;
+	line-height:30px;
+	padding:0;
+}
+.rule-txt .rule-list li:hover{
+	background:none;
+}
+.rule-title .rule-title-center li{
+   	border:none;
+	height: 20px;
+	line-height:20px;
+	padding:0;
+	margin-left:27px;
+}
+.rule-title .rule-title-center li:hover{
+	background:none;
+}
+.rule-txt .rule-title .num{
+	color:#fff;
+	background-color:#c0163a;
+	width:16px;
+	height:16px;
+	line-height:16px;
+	margin-top: 7px;
+	float:left;
+	text-align:center;
+	margin-right: 12px;
+}
+.rule-title-txt{
+	overflow:hidden;
+}
+.rule-txt .rule-title h2{
+	font-size: 14px;
+	color:#333;
+	overflow: hidden;
+	text-overflow:ellipsis;
+    white-space:nowrap;
+    height: 30px;
+    line-height:30px;
+}
+.rule-txt .rule-list .num{
+	color:#fff;
+	background-color:#979797;
+	width:16px;
+	height:16px;
+	line-height:16px;
+	margin-top: 8px;
+	float:left;
+	text-align:center;
+	margin-right: 12px;
+}
+.rule-txt .rule-list .num1{
+	color:#fff;
+	background-color:#c0163a;
+	width:16px;
+	height:16px;
+	line-height:16px;
+	margin-top: 8px;
+	float:left;
+	text-align:center;
+	margin-right: 12px;
+}
+.rule-txt .rule-list .num2{
+	color:#fff;
+	background-color:#454545;
+	width:16px;
+	height:16px;
+	line-height:16px;
+	margin-top: 8px;
+	float:left;
+	text-align:center;
+	margin-right: 12px;
+}
+.rule-txt .rule-list .num2{
+	color:#fff;
+	background-color:#767676;
+	width:16px;
+	height:16px;
+	line-height:16px;
+	margin-top: 8px;
+	float:left;
+	text-align:center;
+	margin-right: 12px;
+}
+.rule-txt .txt{
+	width:230px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+    white-space:nowrap;
+    display: inline-block;
+    float:left;
+    color:#333;
+}
+.rule-txt .txt a{
+	color:#333;
+}
+.rule-txt .txt b{
+	padding-left:5px;
+	padding-right: 5px;
+}
+.rule-txt .rule-list .name{
+	float:right;
+	color:#0e419e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,174 @@
+.noborder {
+	border: 0px
+}
+.bbs {
+	clear: both;
+	overflow:hidden;
+}
+.bbs-left {
+	float: left;
+	width: 770px;
+}
+.bbs-left .no-data {
+	color: red;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+}
+.bbs-left .module-list {
+	width: 770px;
+	height: 40px;
+	background: white;
+	margin-bottom: 0;
+	border-bottom: 1px solid #ddd;
+}
+.bbs-left .module-list li {
+	float: left;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+	border: 1px solid #eee;
+	cursor: pointer;
+}
+.bbs-left .bbs-list {
+	min-height: 1000px;
+	width: 770px;
+	background: white;
+	clear: both;
+	overflow: hidden;
+}
+.bbs-left .bbs-list .bbs-unit {
+	width: 750px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #999;
+	padding-top: 20px;
+	padding-left: 20px;
+	overflow: hidden;
+	clear: both;
+}
+.bbs-unit .memberProfile {
+	width: 50px;
+	height: 50px;
+	float: left;
+	border-radius: 50%;
+}
+.bbs-unit .txt {
+	width: 660px;
+	margin-left: 20px;
+	// border-top: 1px solid red;
+	float: right;
+}
+.bbs-unit .txt .bbstitle {
+	clear: both;
+	font-size: 16px;
+}
+.bbs-unit .txt .bbstitle a {
+	color: #333
+}
+.bbs-unit .txt .bbstitle a:hover {
+	color: #6b3906
+}
+.bbs-unit .txt .bbs-main {
+	width: 720px;
+	margin-top: 20px;
+	clear: both;
+}
+.bbs-unit .txt .bbs-main .pic {
+	width: 128px;
+	height: 90px;
+	float: left;
+	margin-right: 20px;
+	display: -none
+}
+.bbs-main .zy-rt {
+	width: 96%
+}
+.bbs-unit .txt .bbs-main .zy-rt p {
+	display: block;
+	font-size: 14px;
+	padding: 0;
+	margin: 0px
+}
+.bbs-unit .txt .bbs-main .zy-rt p a {
+	color: #6b3906;
+	margin-left: 2px;
+}
+.bbs-unit .txt .bbs-main .zy-rt p a:hover{
+	color: #9c5003
+}
+.bbs-unit .memberName {
+	float: left;
+	color: #6b3906;
+	font-size: 12px;
+}
+.bbs-unit .datetime {
+	float: right;
+	color: #999;
+	font-size: 12px
+}
+.bbs-unit a {
+	color: #0d3384;
+}
+.bbs-unit .top {
+	width: 36px;
+	height: 18px;
+	line-height: 16px;
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #9c6c22;
+	border-radius: 4px;
+	color: #9c6c22
+}
+.loadmore-box {
+	text-align: center;
+}
+.loadMore {
+	display: block;
+	width: 140px;
+	height: 40px;
+	background: #eee;
+	margin: 15px auto;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #666;
+	cursor: pointer;
+}
+.loadMore:hover {
+	background: #ddd
+}
+.bbs-right {
+	float: right;
+	width: 380px;
+}
+.tiezi-unit {
+	width: 378px;
+	border: 1px solid #ddd;
+	background: white;
+	overflow: hidden;
+	margin-bottom: 20px;
+	clear: both;
+}
+.tiezi-unit .tiezi-title {
+	border-bottom: 1px solid #ddd;
+	height: 40px;
+	clear: both;
+	background: #f8f8f8;
+	line-height: 40px;
+	padding-left: 10px;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+}
+.tiezi-unit ul {padding: 15px 15px 10px 25px; overflow: hidden;}
+.tiezi-unit ul li {margin-bottom: 10px;list-style-type:square; text-indent: 0px}
+.tiezi-unit ul li a {color: #333; }
+.tiezi-unit ul li a:hover {color: #a16d24;}
+.tiezi-unit .memberName {
+	float: right;
+	color: #999;
+}

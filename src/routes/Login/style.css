@@ -1,0 +1,102 @@
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+	color: #aa886d;
+	font-size: 16px
+}
+.ant-tabs-nav .ant-tabs-tab:hover {
+	color: #aa886d;
+}
+.ant-tabs-ink-bar {
+	// top: 1px;
+	background: #aa886d
+}
+
+.jumpMark {
+  position: fixed;
+  background: rgba(110, 58, 5, .6);
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 100
+}
+.jumpPopup {
+  position: fixed;
+  width: 350px;
+  height: 160px;
+  border-radius: 0;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: #fff;
+  border: 0!important;
+  z-index: 1000;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .4)
+}
+.jumpPopup .title {height: 40px; background: #9c6c24}
+.jumpPopup p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+.jumpPopup p i {
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  color: #ffa040
+}
+.jumpPopup p .txt{
+  display: inline-block;
+  color: #6b3906;
+  vertical-align: top;
+  padding-top: 4px
+}
+.jumpPopup .close {
+  width: 20px;
+  height: 20px;
+  line-height: 15px;
+  text-align: center;
+  background: #fff;
+  border-radius: 0;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: #9c6c24;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.jumpPopup .close:hover {
+  background: #ffa040
+}
+.jumpPopup .confirmBtn {
+  display: block;
+  border-radius: 20px;
+  background: #ffa040;
+  color: white;
+  width: 100px;
+  height: 30px;
+  margin: 10px auto;
+  line-height: 30px;
+  border: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.jumpPopup .confirmBtn:hover {
+  background: #fe9225
+}

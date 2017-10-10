@@ -1,0 +1,963 @@
+.w1170{
+    margin: 0 auto;
+    width: 1170px;
+}
+/* 筛选条件 */
+
+.searchFilter {
+    border: solid 1px #e4e4e4;
+    padding: 10px;
+    background-color:#fff;
+    overflow: hidden;
+}
+.condition-date {
+    margin-bottom: 9px;
+    padding-bottom: 9px;
+    border-bottom: dashed 1px #e4e4e4;
+    overflow: hidden;
+}
+.condition-date:nth-last-child(1){
+    border-bottom:none;
+}
+.condition-item {
+    position: relative;
+    z-index: 9;
+    clear: both;
+}
+#dataTime{
+    width:88%; 
+}
+.moreList{
+    height: 35px;
+    overflow:hidden;
+}
+
+.condition-item .more{
+   float:right;
+   margin-top:10px;
+   font-size:12px;
+   margin-right:10px;
+   cursor:pointer;
+   color:#9d6c24;
+}
+.condition-label {
+    width: 65px;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 20px;
+    font-weight: 900;
+    color: #333;
+    font-size: 14px;
+}
+
+.condition-sel .active {
+    border: 1px dashed #9d6c24!important;
+    color: #9d6c24;
+}
+
+.condition-sel li {
+    margin-right: 10px;
+    padding: 6px 10px;
+    border: dashed 1px #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 35px;
+}
+.plat-condition li:hover{
+    color: #6a3906;
+}
+.condition-lsit li {
+    margin-right: 10px;
+    padding: 6px 10px!important;
+    border: dashed 1px #fff;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.condition-lsit .active {
+    border: 1px dashed #9d6c24!important;
+    color: #9d6c24;
+}
+
+.condition-lsit .curr {
+    border: 1px dashed #9d6c24!important;
+    color: #9d6c24;
+}
+
+.condition-sel .curr {
+    border: 1px solid #9d6c24!important;
+    color: #9d6c24;
+}
+
+.companylist_xlist li {
+    width: auto!important;
+    float: left;
+    font-size: 14px;
+    padding: 6px 10px!important;
+    // border-right: 0px!important;
+    // border-bottom: 0px!important
+}
+.condition-item li {
+    border-right: 0px!important;
+    border-bottom: 0px!important  
+}
+
+.fl {
+    float: left;
+}
+
+/* 右侧搜搜 */
+
+.idea {
+    display: inline-block;
+    color: #a40001;
+    font-size: 12px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.searchMode .sele_box {
+    position: relative;
+    float: right;
+    width: 193px;
+    height: 23px;
+    line-height: 25px;
+    border: #ccc solid 1px;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.searchMode .s_b_t {
+    padding: 0 10px 0 5px;
+    width: 169px;
+    height: 21px;
+    line-height: 25px;
+    border: 0;
+    color: #b0b0b0;
+    font-size: 12px;
+    vertical-align: middle;
+    font-family: "microsoft yahei";
+    outline:none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.searchMode .s_b_b {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22px;
+    height: 21px;
+    border: 0;
+    cursor: pointer;
+    background-color: #fff;
+    outline:none;
+}
+.searchMode .autoulsj{
+    left:-1px;
+    top:22px;
+}
+.autoulsj{
+    position:absolute;
+    z-index:999999;
+    border:1px solid #E3E4E8;
+    background-color:#fff;
+    max-height:270px;
+    border-radius:0 0 3px 3px;
+    overflow:auto;
+    overflow-x:hidden;
+    border-top:none;
+}
+.autoulsj li{
+    line-height:23px;
+    border-bottom:1px solid #ececec;
+}
+.autoulsj li a{
+    display:block;
+    padding:5px 8px;
+    color:#333;
+    font-size:13px;
+}
+.autoulsj li a:hover{
+    color:#9d6c24;
+}
+.searchMode {
+    height: 40px;
+    border: 1px solid #ddd;
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+    background-color:#fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.searchMode .searchbox {
+    overflow: hidden;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.searchMode .sleft {
+    position: relative;
+    float: left;
+    width: 365px;
+    height: 34px;
+    line-height: 45px;
+    border: #dcdcdc solid 1px;
+    border-radius: 2px;
+    zoom: 1;
+}
+
+.searchMode .slae_sbt {
+    padding: 0 30px 0 5px;
+    width: 365px;
+    height: 34px;
+    line-height: 30px;
+    border: 0;
+    color: #b0b0b0;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.searchMode .sright {
+    float: left;
+    width: 100px;
+    background-color: #9d6c24;
+    height: 100%;
+    line-height: 34px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.searchMode .sright a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 34px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.searchMode .letter {
+    float: left;
+    margin: 4px 15px 0 10px;
+    line-height: 35px;
+}
+
+.searchMode .letter a {
+    display: inline-block;
+    margin-left: 2px;
+    padding: 0 10px;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #f6f6f6;
+    border: #ddd solid 1px;
+    color: #333;
+}
+
+.searchMode .letter a:hover {
+    background-color: #2f8bcd;
+    color: #fff;
+}
+
+// 条件
+//筛选条件
+.searchFilter {
+    margin: -1px 0 20px;
+    background-color:#fff;
+    overflow: hidden;
+}
+
+.searchFilter .choose {
+    overflow: hidden;
+}
+
+.searchFilter .filter {
+    position: relative;
+    overflow: hidden;
+}
+
+.c_checkbox {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    margin: 21px 5px 0 10px;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.c_checkbox:checked {
+}
+
+
+/* 重置清空 */
+
+.reset-condition {
+    position: absolute;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    color: #9d6c24;
+    cursor: pointer;
+    font-family: "MicrosoftYaHei";
+    font-size:12px!important;
+}
+.reset-condition span{
+    width:69px;
+    display:inline-block;
+    text-align:right;
+}
+.reset-condition span:before{
+    content:'';
+    /*background:url(../img/reset.png) 0 0 no-repeat;*/
+    background-size:13px 13px;
+    width:15px;
+    height:15px;
+    display:block;
+    position:absolute;
+    top:2px;
+}
+.searchFilter .filter-name {
+    min-width: 50px;
+    float: left;
+    text-align: right;
+}
+
+.searchFilter .filter-pad {
+    position: relative;
+    padding-left: 60px;
+}
+
+.searchFilter li a {
+    margin: 0 20px 5px 0;
+    padding: 0 6px;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    border-radius: 2px;
+    color: #333;
+    text-decoration: none;
+}
+
+.searchFilter li a input {
+    outline: none;
+}
+
+.searchFilter li a span {
+    padding-left: 5px;
+}
+
+.searchFilter li .pitch {
+    display: inline-block;
+    margin-right: 7px;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
+}
+
+.searchFilter li .pitch:hover,
+.searchFilter li .pitch:visited {
+    background-position: 0 -431px;
+}
+
+
+
+.searchFilter .openmore {
+    margin-top: -1px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+.searchFilter .openmore .open {
+    padding: 0 30px;
+    display: inline-block;
+    height: 27px;
+    line-height: 27px;
+    background-color: #eee;
+    border: #eaeaea solid 1px;
+    border-bottom-color: #ccc;
+    border-top: 0;
+    color: #333;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.searchFilter .openmore .open .arrow {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+
+/* 按条件排序 */
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 14px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 14px;
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+}
+option{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+select::-ms-expand {
+    display: none;
+}
+.hd{
+    background: white;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    overflow:hidden;
+}
+.hd .tit{
+    float:left;
+    line-height:34px;
+    color:#333;
+    font-size:13px;
+    padding-left:0px;
+    margin-top:5px;
+}
+.hd .tit strong{
+    color:#9d6c24;
+}
+
+.selected {
+    margin: 10px 5px;
+    float:right;
+    overflow:hidden;
+}
+
+.selected select {
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    border: #ddd solid 1px;
+    padding: 0 5px
+}
+.sorting {
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.sorting .sorting-img {
+    width: 175px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+}
+.sorting .sorting-img a{
+    width: 200px;
+    height: 110px;
+    float: left;
+    margin: 5px;
+}
+
+.sorting .sorting-img img {
+    margin-left: 10px;
+    margin-top:10px;
+    width:135px;
+    min-height:45px;
+    max-height: 86px;
+}
+
+.sorting .sorting-body {
+    float: left;
+    margin-left: 10px;
+}
+
+.sorting .sorting-body .sorting-title {
+    height: auto;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.sorting .sorting-body .sorting-title h2 {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+.sorting .sorting-body .sorting-title h2 .p2p {
+    background-color: #3595e0;
+    color: #fff;
+    padding: 3px;
+    margin-left: 3px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.bell-ling{
+    position:relative;
+    width:80px;
+    display:inline-block;
+    margin-left:10px;
+}
+.terraceList .item .title .nameBox .bell{
+   background-size:20px 20px;
+   display:inline-block;
+   position:relative;
+   width:20px;
+   height:20px;
+   cursor:pointer;
+}
+.terraceList .item .title .nameBox .b2{
+    font-weight:100;
+    font-size:12px;
+    position:absolute;
+    left:30px;  
+    top:0;
+    color:#fff;
+    min-width:60px;
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    background-color:#f45a56;
+}
+.terraceList .item .title .nameBox .icon_san{
+    width:7px;
+    height:10px;
+    position:absolute;
+    background-size:8px 8px;
+    left:23px;
+    top:5px;
+}
+
+.sorting .sorting-body .sorting-title h2 .tion {
+    background-color: #f20;
+    color: #fff;
+    padding: 3px;
+    margin-left: 3px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.sorting .sorting-body .sorting-title h2 .s1 {
+    border: 1px solid #f20;
+    color: #f20;
+    padding: 3px;
+    margin-left: 3px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.sorting .sorting-body .sorting-txt {
+    margin-top: 15px;
+    height: auto;
+    overflow: hidden;
+}
+
+.sorting .sorting-body .sorting-txt li {
+    min-width: 18%;
+    border-right: 1px solid #ddd;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sorting .sorting-body .sorting-txt strong {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    color: #333;
+    position: relative;
+    max-width: 100%;
+}
+
+.sorting .sorting-body .sorting-txt strong .up {
+    background-size: 8px 15px;
+    width: 8px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: -12px;
+}
+
+.sorting .sorting-body .sorting-txt .down {
+    background-size: 8px 15px;
+    width: 8px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: -12px;
+}
+
+.sorting .sorting-body .sorting-txt span {
+    color: #999;
+    font-size: 14px;
+    display: block;
+}
+
+.page {
+    text-align: center;
+}
+
+.page .pagination a {
+    margin-left: 10px;
+}
+
+.sorting{
+    overflow:hidden;
+    margin-top:15px;
+}
+
+/*maney  left*/
+
+.sideLeft {
+    float: left;
+    width: 870px;
+    background:none;
+}
+
+.terraceList .item {
+    margin-bottom: 10px;
+    border: #ddd solid 1px;
+    border-top: #ddd solid 1px;
+    background: white;
+    overflow:hidden;
+}
+
+.terraceList .item .title {
+    padding: 10px;
+    border-bottom: #f6f6f6 solid 1px;
+    line-height: 27px;
+    overflow: hidden;
+}
+
+.terraceList .item .title .nameBox {
+    float: left;
+    width: 240px;
+    font-size: 18px;
+    color: #9d6c24;
+    font-family: "microsoft yahei";
+}
+
+.terraceList .item .title .nameBox a {
+    color: #9d6c24;
+}
+
+.terraceList .item .title .nameBox .p2p {
+    background-color: #9d6c24;
+    color: #fff;
+    padding: 2px;
+    margin-left: 5px;
+    font-size: 10px;
+    border-radius: 3px;
+}
+
+.terraceList .item .indexNum {
+    position: relative;
+    float: left;
+    width: 196px;
+    color: #333;
+    custom: default;
+    font-size: 12px;
+}
+
+.terraceList .item .indexNum i {
+    color: #9d6c24;
+    font-size: 14px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.terraceList .item .netF {
+    float: left;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.terraceList .item .netF .list {
+    position: relative;
+    margin-right: 10px;
+    display: inline-block;
+    color: #333;
+    cursor: default;
+}
+
+.terraceList .item .netF .list i {
+    color: #9d6c24;
+    font-size: 14px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.terraceList .item .con {
+    position: relative;
+    padding: 10px;
+    border-bottom: #f6f6f6 solid 1px;
+    line-height: 24px;
+    overflow:hidden;
+}
+
+.terraceList .item .con span {
+    display: inline-block;
+    padding-right: 10px;
+    width: 240px;
+    vertical-align: top;
+    color: #666;
+    font-size: 12px;
+}
+
+.terraceList .item .con span.dateT {
+    width: auto;
+}
+.terraceList .item .con .ziben{
+    width:155px;
+}
+.terraceList .item .con .more {
+    position: absolute;
+    bottom: 4px;
+    right: 34px;
+    top: 15px;
+    line-height: 20px;
+}
+
+.terraceList .item .con .focus i {}
+
+.terraceList .item .con .p-o-btn i:hover {
+    background-position: 0 -436px;
+}
+
+.terraceList .item .con .p-o-btn i {
+    position: absolute;
+    display: block;
+    font-style: normal;
+    left: 4px;
+    top: 3px;
+    width: 18px;
+    height: 18px;
+    background-position: 0 -413px;
+    transition: background-position .15s ease-in-out;
+}
+/* 暂无数据 */
+.itemNone{
+    height:45px;
+    line-height:45px;
+    border:#ddd solid 1px;
+    border-top:#9d6c24 solid 1px;
+}
+.itemNone p{
+    margin-left:10px;
+}
+/* 加载更多 */
+.veryMore{
+    border:1px solid #f2f2f2;
+    height:44px;
+    line-height:44px;
+    text-align: center;
+    margin-top:20px;
+}
+.veryMore a{
+    font-size:14px;
+    color:#333;
+    display:inline-block;
+    width:100px;
+    position:relative;
+    line-height:44px;
+}
+/*maney  right*/
+
+.sideRight {
+    float: right;
+    width: 280px;
+    background-color:#fff;
+}
+
+.tabBox {
+    border: #ddd solid 1px;
+    margin-bottom: 13px;
+}
+
+.tabBox .tabTitle {
+    border-bottom: #ddd solid 1px;
+    overflow: hidden;
+}
+
+.tabBox .tabTitle li a:hover,
+.tabBox .tabTitle li.on a {
+    margin: -1px 0 -1px -1px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #9d6c24;
+    text-indent: 1px;
+}
+
+.tabBox .tabTitle li a {
+    float: left;
+    padding: 0 12px;
+    height: 35px;
+}
+
+.otherCom {
+    padding: 0 15px;
+}
+
+.otherCom dl {
+    padding: 12px 0;
+    border-bottom: #ddd solid 1px;
+    line-height: 24px;
+}
+
+.otherCom dt {
+    color: #858585;
+    font-weight: 100;
+}
+
+.otherCom a {
+    margin-right: 5px;
+    color: #9d6c24;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.otherCom dd.otherComping a {
+    display: inline-block;
+    color: #333;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.otherCom .btn {
+    text-align: right;
+    width: 100%;
+}
+
+.myCom .commentFont .btn a,
+.otherCom .btn a {
+    display: inline-block;
+    margin: 0 7px;
+    padding: 0 5px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    color: #9d6c24;
+    border: #9d6c24 solid 1px;
+    border-radius: 2px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.box {
+    margin-bottom: 13px;
+    border: #ddd solid 1px;
+    border-top: #bf9251 solid 2px;
+}
+
+.box .hd {
+    position: relative;
+    padding: 0 10px;
+    border-bottom: #ddd solid 1px;
+    overflow: hidden;
+}
+
+.newBox .hd .tit,
+.topBox .hd .tit {
+    color: #f5f5f5;
+}
+
+.box .tit {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.topBox .bd {
+    padding: 0;
+}
+
+.topList li {
+    padding: 7px 10px;
+    margin-top: -1px;
+    overflow: hidden;
+    border-top: #eee solid 1px;
+    font-size: 13px;
+}
+
+.topList i.t1 {
+    background-color: #9d6c24;
+}
+.topList i.grays{
+    background-color:#gray;
+    color:#fff;
+}
+.topList i {
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #fff;
+    font-family: "arial";
+    background-color: #cdcdcd;
+    font-style: normal;
+}
+
+.topList .name {
+    float: left;
+    width: 120px;
+    height: 18px;
+    overflow: hidden;
+    color: #9d6c24;
+    font-size: 13px;
+    font-family: "Arial";
+}
+
+.topList .gray {
+    float: right;
+}
+.topList .gray em{
+    color: #9d6c24;
+    font-size: 14px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.myCom .commentFont .btn a,
+.otherCom .btn a:hover {
+    background-color: #9d6c24;
+    color: #fff;
+}
+
+.commentList .item .nameTit .tags,
+.otherCom .tags {
+    margin-left: 10px;
+    color: #999;
+}
+
+
+
+.otherCom .tags .icon {
+    margin-right: 4px;
+    width: 20px;
+    height: 17px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+}

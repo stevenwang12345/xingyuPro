@@ -1,0 +1,36 @@
+.tabhead {
+	width: 760px;
+	height: 50px;
+	line-height: 20px;
+	border-right: 1px solid #eee!important;border-left: 1px solid #eee!important;border-bottom: 1px solid #eee!important;
+
+}
+.newdatas-table {
+	margin-left: 0px!important;
+	width: 100%!important
+}
+.newdatas-table thead th {background: #9d6d25; color: #fff!important;font-size: 12px}
+.newdatas-table thead {
+
+}
+.theadFixed {
+	width:1170px; 
+	position: fixed;
+	top: 0px;
+	z-index: 10
+}
+.newdatas-table td {border-right: 1px solid #eee!important;border-left: 1px solid #eee!important;border-bottom: 1px solid #eee!important;}
+.modal-table {
+	margin-left: 0px!important
+}
+.modal-table thead th {
+	background: #ffeacb!important;
+	color: #666!important;
+	font-size: 12px;
+	border-left: 1px solid #eee!important;
+	border: 1px solid #eee!important;
+	font-weight: bold;
+}
+.modal-table td{font-size: 12px!important;}
+
+#data-box thead th {font-size: 12px;padding: 9px 5px}

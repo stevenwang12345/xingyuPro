@@ -1,0 +1,411 @@
+/* 平台成交数据 */
+.datalist{
+	border:1px solid #ddd;
+	background: white;
+}
+.transaction{
+	height: 48px;
+	line-height: 48px;
+	border-bottom:1px solid #ddd;
+}
+.datalist h2{
+	height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    color: #9c6c24;
+    padding-left: 10px;
+    font-weight: bold;
+    float:left;
+}
+.datalist .searchTime{
+	float:right;
+	margin-right: 10px;
+}
+.searchbox {
+	position: relative;
+}
+.searchbox .serach-input {
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ccc!important;
+	border-radius: 0px!important;
+	margin-top:5px;
+	text-indent: 10px;
+	font-size: 12px;
+}
+.searchbox i {
+	position: absolute;
+	right: 10px;
+	top: 18px;
+	cursor: pointer;
+}
+.datalist .searchTime .ant-input-affix-wrapper{
+	margin-top: 5px
+}
+.datalist .search,.datalist .time {
+	float:left;
+	margin-left: 10px;
+	position: relative;
+	font-size: 14px;
+}
+.search .ant-input {
+	border: 1px solid #bbb;
+	border-radius: 0px!important;
+	font-size: 14px;
+}
+.search .ant-input-suffix {
+	top: 20px
+}
+.condition-date{
+	border-bottom:dashed 1px #e4e4e4;
+}
+.conditionitem{
+	height: 40px;
+	line-height:40px;
+	position:relative;
+	z-index: 9;
+	width:98%;
+	margin:0 auto;
+}
+.conditionlabel{
+	width:65px;
+	height:40px;
+    line-height:40px;
+    margin-right:20px;
+    font-weight: 900;
+    color:#333;
+    font-size:14px;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float: right;
+}
+.compared-list {
+	// position: fixed;
+	width: 200px;
+	height: auto;
+	border: 1px solid #ccc;
+	background: white;
+}
+.compared-list .title {
+	clear: both;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	// border-bottom: 1px solid #ccc;
+	color: white;
+	background: #e2a140
+}
+.compared-list .title span {
+	float: left;
+	font-weight: bold;
+}
+.compared-list .ant-btn-primary {
+	background: #9c6c24;
+	border: 0
+}
+.compared-list .title i{
+	font-size: 15px;
+	cursor: pointer;
+	background: white;
+	color: #e2a140
+}
+.layermark {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .5);
+	z-index: 25
+}
+.comparedDialog {
+    width: 800px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin:auto;
+    left:0; 
+    right:0; 
+    top:0; 
+    bottom: 0px;
+    background: white;
+    position: fixed;
+    z-index: 50;
+    border: 1px solid #666;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4)
+
+}
+.comparedDialog .comparedtitle {
+	clear: both;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+}
+.comparedDialog .comparedtitle .biaoti {
+	float: left;
+	font-size: 16px;
+}
+.comparedDialog .comparedtitle .close {
+width: 20px;
+    height: 20px;
+    line-height: 15px;
+    text-align: center;
+    background: #000;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+    top: 0px!important;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    z-index: 5000;
+    float: none!important
+}
+.modal-p {
+	padding:12px 10px;
+	border-bottom: 1px dashed #ccc;
+	color: #e2a140;
+	font-weight: bold;
+	font-size: 14px;
+}
+.modal-p i{
+	cursor: pointer;
+	color: #666
+}
+.modal-p i:hover{color: #000}
+.compared-btn {
+	width: 60px;
+	display: block;
+	margin: 10px 10px 20px 0;
+}
+.comparedModals {
+  text-align: center;
+  white-space: nowrap;
+}
+.comparedModal-ul {
+	width: 760px;
+	line-height: 40px;
+	clear: both;
+	overflow: hidden;
+	border-bottom: 1px dashed #ccc
+}
+.comparedModal-ul li{
+	float: left;
+	height: 40px!important;
+	line-height: 40px!important;
+	// padding: 10px 0!important;
+	margin: 0px!important;
+	width: 105px;
+	overflow: hidden;
+}
+.comparedModals:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+
+.comparedModals .ant-modal {
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  text-align: left;
+}
+.comparedModals .ant-modal-footer{display: none}
+.data-table {
+	width: 100%;
+	border-collapse:collapse;
+	background: white;
+	margin-left: 0px
+
+}
+.gz {
+	display: inline-block;
+	border: 1px dashed #999;
+	color: #bbb!important;
+	padding: 1px 8px;
+	border-radius: 4px
+}
+.gz:hover{
+	color: #ff9800!important;
+	border: 1px solid #ff9800
+}
+.data-table thead {
+	height: 40px;
+	background: '#9c6c24'!important;
+}
+.data-table thead th{
+	height: 40px;
+	border: 1px solid #eee;
+	background: '#9c6c24'!important;
+	text-align: center;
+	color: white;
+}
+.data-table td {
+	border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 12px 6px;
+	font-size: 14px;
+}
+.no-data {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+}
+.conditionitem ul{
+	border:none;
+	height: 40px;
+	line-height:40px;
+	background: white;
+	background:none;
+}
+.conditionitem .condition-sel li{
+	border:none!important;
+	height: 40px;
+	line-height:40px;
+	margin-right:10px;
+	padding:0px 11px;
+	font-size: 14px;
+	cursor:pointer;
+	float:left;
+}
+.conditionitem .condition-sel li span{
+
+}
+.conditionitem .condition-sel li:hover{
+	border:none;
+	background:none;
+	color:#a06e27;
+}
+.sort-ul-li li{
+	width: 100px!important
+}
+.reset-condition{
+	position:absolute;
+	z-index:9;
+	right: 0;
+	top: 0;
+	color:#a06e27;
+	cursor:pointer;
+	font-size: 14px
+}
+.conditional {padding: 20px 0;}
+/* table */
+.datacondition {
+	margin-top:15px;
+	// border:1px solid #ddd;
+	border-bottom: 1px solid #eee;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px
+}
+.datacondition .condition-sel {
+	height: 40px;
+}
+.datacondition .condition-sel li{
+	float:left;
+	height: 40px;
+	padding:0;
+	width:80px;
+	text-align:center;
+	margin-right: 15px;
+	cursor: pointer;
+	border: 0px!important
+}
+.datacondition .condition-sel li span{
+	display: block;
+}
+.condition{
+	margin-top:15px;
+	border:1px solid #ddd;
+	border-bottom: 1px solid #999;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px
+}
+.condition .condition-sel {
+	height: 40px;
+}
+.condition .condition-sel li{
+	float:left;
+	height: 40px;
+	padding:0;
+	width:80px;
+	text-align:center;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.condition .condition-sel li:hover{
+	// background-color:#a06e27;
+	// color:#fff;
+}
+.table{
+	margin-top:15px;
+}
+.table tr{
+	text-align:center;
+}
+.table tr a{
+	color:#a06e27;
+}
+/* 关注 */
+.tb-action{
+	width:60px;
+	height: 22px;
+	padding:0;
+	margin:0 auto;
+	line-height:22px;
+    border:dashed 1px #ccc;
+    border-radius:6px;
+    text-align:center;
+    color:#ccc;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
